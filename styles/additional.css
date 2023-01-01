@@ -1,28 +1,28 @@
 
 .headers{
-    color:rgb(84, 70, 70);
+    color:aliceblue;
     /* margin-left: 100px; */
     /* margin-bottom: 40px; */
     height: 80px;
     display: flex;
     position: fixed;
     top:0px;
-    background-color: rgb(176, 124, 56);
+    /* background-color: rgb(176, 124, 56); */
     /* width: auto; */
     /* flex-basis: 30%; */
     width: 100%;
     align-content: flex-end;
-    justify-content: space-evenly;
+    justify-content:space-around;
     align-items: center;
     font-size: large;
     font-family: 'Oswald', sans-serif;
     /* text-align: center;  */
-    
+   /* margin-left: 100px; */
 }
-
+/* 
 .lef{
     margin-left: 500px;
-}
+} */
 
 .about{
     display: flex;
@@ -38,7 +38,7 @@
     height: 100%;
     width: 50%;
     color:rgb(249, 236, 236);
-    font-family: 'Tangerine', cursive;
+    /* font-family: 'Tangerine', cursive; */
   
     
 }
@@ -76,6 +76,9 @@
     background-image: url("../public/anil_profile.png");
     background-size: 800px 800px;
     background-repeat: no-repeat;
+    border-radius: 50%;
+    /* border: 2px solid white; */
+    margin-top: 50px;
 }
 
 .home{
@@ -84,4 +87,34 @@
     /* margin-top: -30px; */
     padding: 0px;
     margin: 0px;
+}
+
+.color-white{
+    color: aliceblue;
+    /* background-color: red; */
+    margin-top: 150px;
+}
+
+.line-space{
+    margin-top: 50px;
+    line-height: 1.5em;
+}
+
+.tech{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr ;
+
+}
+
+.inner-tech{
+    
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 30px;
+    height: 30px;
 }

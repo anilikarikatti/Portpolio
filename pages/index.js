@@ -20,12 +20,11 @@ export default function Main() {
      </Head>
       <main >
         <div className='headers'>
+          <div>Home</div>
           <div>About</div>
-          <div>Experiance</div>
-          <div>Skills</div>
-          <div>Education</div>
+          <div>Projects</div>
           <div>Contact</div>
-          <div className='lef'>Anil IK</div>
+          {/* <div className='lef'>Anil IK</div> */}
         </div>
           <Home/>
           <About/>
