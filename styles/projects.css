@@ -1,0 +1,63 @@
+.someMyWorks{
+    /* margin-top: 30px; */
+    margin-left: 50%;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.projects{
+    margin-top: 30px;
+    margin-left: 50%;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.contact{
+    display: flex;
+    margin-top: 135px;
+    background-color: black;
+}
+.abt{
+    width:35%;
+    margin-left: 10px;
+    color: aliceblue;
+    
+}
+.content{
+    margin-top:10px;
+    line-height: 24px;
+    margin-left: 40px;
+}
+
+.project-page{
+    height: 850px;
+    /* width: 100vw; */
+    background-color: rgb(48, 43, 43);
+    /* justify-content: flex-start; */
+    overflow: hidden;
+}
+
+.imgages{
+    border: 2px solid black;    
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.lists{
+
+    margin-left: 180px;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.address{
+    width: 50px;
+    margin-left: 140px;
+    margin-top: 10px;
+    line-height: 32px;
+
+}

@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 // import additonal from '../styles/additional.css'
 import Home from './components/home'
-import About from './components/experiance'
+import Projects from './components/projects'
 import Skills from './components/skills'
 
 
@@ -20,15 +20,16 @@ export default function Main() {
      </Head>
       <main >
         <div className='headers'>
-          <div>Home</div>
-          <div>About</div>
-          <div>Projects</div>
-          <div>Contact</div>
+          <div className='margin-left-30px'>Home</div>
+          <div className='margin-left-30px'>About</div>
+          <div className='margin-left-30px'>Projects</div>
+          <div className='margin-left-30px'>Contact</div>
           {/* <div className='lef'>Anil IK</div> */}
         </div>
-          <Home/>
-          <About/>
-          <Skills/>
+            <div>
+              <Home/>
+              <Projects/>
+          </div>
         </main>
     </>
   )
