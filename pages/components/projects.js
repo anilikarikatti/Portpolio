@@ -22,14 +22,14 @@ export default function Projects(){
                
             </div>
             <div className="contact">
-                <div className="abt">
+                <div className="abt below">
                     <h2 >Anil Irappa Karikatti</h2>
                     <h3 className="content">
                         I am a Software Engineer from Hubbali, Karnataka.
                     I always make websites that have unique designs and also have a good performance rate.
                     </h3>
                 </div>    
-                <div className="abt">
+                <div className="abt below">
                     <h2>useful links</h2>
                     <ul>
                         <li className="lists">home</li>
@@ -40,7 +40,7 @@ export default function Projects(){
                     </ul>
                     </div>    
                 <div className="abt">
-                    <h2>contact info</h2>
+                    <h2 className="below">contact info</h2>
                     <h3 className="address">
                         anilkarikatti333@gmail.com
                         7795549800

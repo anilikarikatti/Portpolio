@@ -5,7 +5,8 @@ import styles from '../styles/Home.module.css'
 // import additonal from '../styles/additional.css'
 import Home from './components/home'
 import Projects from './components/projects'
-import Skills from './components/skills'
+import About from './components/about'
+
 
 
 
@@ -29,6 +30,7 @@ export default function Main() {
             <div>
               <Home/>
               <Projects/>
+              <About></About>
           </div>
         </main>
     </>
