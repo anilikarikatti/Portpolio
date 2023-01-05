@@ -29,15 +29,15 @@ I Have done projects using following WebTechnologies */}
                     I Have done projects using following WebTechnologies</h3>
 
                     <div className="tech">
-                        <div className="inner-tech">html</div>
-                        <div className="inner-tech">css </div>
-                        <div className="inner-tech">javascript</div>
-                        <div className="inner-tech">react js</div>
-                        <div className="inner-tech">tailwind css</div>
-                        <div className="inner-tech">next js </div>
-                        <div className="inner-tech">node js</div>
-                        <div className="inner-tech">express js</div>
-                        <div className="inner-tech">aws</div>
+                        <div className="inner-tech padd">html</div>
+                        <div className="inner-tech padd">css </div>
+                        <div className="inner-tech padd">javascript</div>
+                        <div className="inner-tech padd">react js</div>
+                        <div className="inner-tech padd">tailwind css</div>
+                        <div className="inner-tech padd">next js </div>
+                        <div className="inner-tech padd">node js</div>
+                        <div className="inner-tech padd">express js</div>
+                        <div className="inner-tech padd">aws</div>
 
 
                     </div>

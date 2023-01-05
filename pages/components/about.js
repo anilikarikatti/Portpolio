@@ -25,10 +25,10 @@ export default function About(){
                 <h1 className="myskills">my skills</h1>
                 <div className="web">
                     <div className="left">web technologies </div>
-                    <div className="leftdata  border">html</div>
-                    <div className="innerleft border">css</div>
-                    <div className="innerleft border">javascript </div>
-                    <div className="innerleft border">node js </div>
+                    <div className="leftdata  border h">html</div>
+                    <div className="innerleft border h">css</div>
+                    <div className="innerleft border h">javascript </div>
+                    <div className="innerleft border h">node js </div>
 
 
                 </div>
@@ -40,10 +40,10 @@ export default function About(){
                 {/* <h1 className="myskills"></h1> */}
                 <div className="web">
                     <div className="left">frame work and libraries </div>
-                    <div className=" border innerleftframe">react</div>
-                    <div className="innerleftframe border">express</div>
-                    <div className="innerleftframe border">next js</div>
-                    <div className="innerleftframe border">tailwind css</div>
+                    <div className=" border innerleftframe h">react</div>
+                    <div className="innerleftframe border h">express</div>
+                    <div className="innerleftframe border h">next js</div>
+                    <div className="innerleftframe border h">tailwind css</div>
 
 
                 </div>
@@ -55,10 +55,10 @@ export default function About(){
 
                 <div className="web">
                     <div className="left">tools</div>
-                    <div className=" border toolsleft">aws</div>
-                    <div className="innerleftframe border">git</div>
-                    <div className="innerleftframe border">vs code</div>
-                    <div className="innerleftframe border">mysql</div>
+                    <div className=" border toolsleft h">aws</div>
+                    <div className="innerleftframe border h">git</div>
+                    <div className="innerleftframe border h">vs code</div>
+                    <div className="innerleftframe border h">mysql</div>
 
 
                 </div>
@@ -70,7 +70,7 @@ export default function About(){
                 <h1 className="myskills margintop-10">Education</h1>
                 <div className="web">
                     <div className="left">school </div>
-                    <div className="schoolleft  border">karnataka high school dharwad</div>
+                    <div className="schoolleft  border h">karnataka high school dharwad</div>
         
                 </div>
             </div>
@@ -80,7 +80,7 @@ export default function About(){
 
                 <div className="web">
                     <div className="left">college </div>
-                    <div className="collageleft  border">jain collage of engineering and technology hubballi</div>
+                    <div className="collageleft  border h">jain collage of engineering and technology hubballi</div>
         
                 </div>
             </div>
@@ -90,9 +90,18 @@ export default function About(){
 
                 <div className="web">
                     <div className="left">university </div>
-                    <div className="universityleft  border">Visvesvaraya Technological University (VTU)</div>
+                    <div className="universityleft  border h">Visvesvaraya Technological University (VTU)</div>
         
                 </div>
+            </div>
+            
+            <div className="">
+
+            <div className="web">
+                <div className="left">mentor </div>
+                <div className="collageleft  border h data">chandan purohit [c t o of samarth meditech]</div>
+
+            </div>
             </div>
 
             <div className="contact">
