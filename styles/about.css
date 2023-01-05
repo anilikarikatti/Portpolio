@@ -39,14 +39,14 @@
 }
 
 .innerleft{
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .border{
     border: 2px solid black;
     /* width: 100px; */
     padding: 5px 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     background-color: antiquewhite;
     color: black;
@@ -54,4 +54,27 @@
 
 .innerleftframe{
     margin-left: 50px;
+}
+
+
+.toolsleft{
+    margin-left: 220px;
+}
+
+.universityleft{
+    margin-left: 170px;
+}
+
+
+.collageleft{
+    margin-left: 190px;
+}
+
+
+.schoolleft{
+    margin-left: 200px;
+}
+
+.margintop-10{
+    margin-top: 40px;
 }
