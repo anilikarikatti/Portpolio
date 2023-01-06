@@ -1,9 +1,10 @@
+import { Main1 } from "../index"
 
 
 export default function About(){
     return(
         <>
-          
+        <Main1/>
         <div className='project-page' >
             <div className="flex" >
                 <div className=' wi backimg  height-100' >

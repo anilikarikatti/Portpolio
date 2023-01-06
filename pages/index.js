@@ -6,13 +6,13 @@ import styles from '../styles/Home.module.css'
 import Home from './components/home'
 import Projects from './components/projects'
 import About from './components/about'
-
+import Link from 'next/link'
 
 
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Main() {
+ export function Main1() {
   return (
     <>
      <Head>
@@ -21,18 +21,26 @@ export default function Main() {
      </Head>
       <main >
         <div className='headers'>
-          <div className='margin-left-30px'>Home</div>
-          <div className='margin-left-30px'>About</div>
-          <div className='margin-left-30px'>Projects</div>
-          <div className='margin-left-30px'>Contact</div>
+          <div className='margin-left-30px'><Link href="/">Home</Link></div>
+          <div className='margin-left-30px'> <Link href="/components/about">About</Link></div>
+          <div className='margin-left-30px'> <Link href="/components/projects">Projects</Link></div>
+          <div className='margin-left-30px'><Link href="/components/home">Contact</Link></div>
           {/* <div className='lef'>Anil IK</div> */}
         </div>
-            <div>
-              <Home/>
-              <Projects/>
-              <About></About>
-          </div>
+            
         </main>
     </>
   )
+}
+
+export default function Main(){
+  return(
+    <>
+    <Main1/>
+    <div>
+    <Home/>
+    <Projects/>
+</div>
+</>
+    )
 }

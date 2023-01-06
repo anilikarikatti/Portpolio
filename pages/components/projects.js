@@ -1,11 +1,11 @@
 
 
-
+import { Main1 } from "../index"
 
 export default function Projects(){
     return(
         <>
-          
+          <Main1/>
         <div className='project-page' >
             <h3 className="someMyWorks">some of my works</h3>
             <h1 className="projects">Projects</h1>
