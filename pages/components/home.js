@@ -20,8 +20,8 @@ I am looking for an opportunity in an esteemed organisation to put in my best ef
 I Have done projects using following WebTechnologies */}
 
 
-                <h1 className="text-black-100 sm:mt-40 mt-8 sm:ml-0 ml-40 ">Hello , This is </h1>
-                <p className="sm:text-8xl sm:ml-0 ml-40">Anil I Karikatti</p>
+                <h1 className="text-black-100 sm:mt-40 mt-8 sm:ml-0 ml-44 ">Hello , This is </h1>
+                <p className="sm:text-8xl text-xl sm:ml-0 ml-40">Anil I Karikatti</p>
                 <h3 className="line-space sm:mt-10 mt-3 sm:ml-0 ml-10">I am a Software Engineer  I love coding , development and make new web experiences for people.
                     I am looking for an opportunity in an esteemed organisation to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfill organisational goals.
                     </h3>
@@ -29,15 +29,15 @@ I Have done projects using following WebTechnologies */}
                     I Have done projects using following WebTechnologies</h3>
 
                     <div className="tech">
-                        <div className="inner-tech padd">html</div>
-                        <div className="inner-tech padd">css </div>
-                        <div className="inner-tech padd">javascript</div>
-                        <div className="inner-tech padd">react js</div>
-                        <div className="inner-tech padd">tailwind css</div>
-                        <div className="inner-tech padd">next js </div>
-                        <div className="inner-tech padd">node js</div>
-                        <div className="inner-tech padd">express js</div>
-                        <div className="inner-tech padd">aws</div>
+                        <div className="inner-tech text-center ">html</div>
+                        <div className="inner-tech text-center">css </div>
+                        <div className="inner-tech text-center">javascript</div>
+                        <div className="inner-tech text-center">react js</div>
+                        <div className="inner-tech text-center">tailwind css</div>
+                        <div className="inner-tech text-center">next js </div>
+                        <div className="inner-tech text-center">node js</div>
+                        <div className="inner-tech text-center">express js</div>
+                        <div className="inner-tech text-center mb-10">aws</div>
 
 
                     </div>
