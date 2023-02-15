@@ -10,15 +10,7 @@ export default function Home(){
 
             </div>
             <div className='sm:h-full sm:w-full  '>
-            {/* Hello,This is
-
-Irayya Hiremath
-
-I am a Software Engineer  I love to design and make new web experiences for people.
-I am looking for an opportunity in an esteemed organisation to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfil organisational goals.
-
-I Have done projects using following WebTechnologies */}
-
+            
 
                 <h1 className="text-black-100 sm:mt-40 mt-8 sm:ml-0 ml-44 ">Hello , This is </h1>
                 <p className="sm:text-8xl text-xl sm:ml-0 ml-40">Anil I Karikatti</p>
@@ -29,15 +21,15 @@ I Have done projects using following WebTechnologies */}
                     I Have done projects using following WebTechnologies</h3>
 
                     <div className="tech">
-                        <div className="inner-tech text-center ">html</div>
-                        <div className="inner-tech text-center">css </div>
-                        <div className="inner-tech text-center">javascript</div>
-                        <div className="inner-tech text-center">react js</div>
-                        <div className="inner-tech text-center">tailwind css</div>
-                        <div className="inner-tech text-center">next js </div>
-                        <div className="inner-tech text-center">node js</div>
-                        <div className="inner-tech text-center">express js</div>
-                        <div className="inner-tech text-center mb-10">aws</div>
+                        <div className="inner-tech text-center  h">html</div>
+                        <div className="inner-tech text-center h">css </div>
+                        <div className="inner-tech text-center h">javascript</div>
+                        <div className="inner-tech text-center  h">react js</div>
+                        <div className="inner-tech text-center h">tailwind css</div>
+                        <div className="inner-tech text-center h">next js </div>
+                        <div className="inner-tech text-center h">node js</div>
+                        <div className="inner-tech text-center h">express js</div>
+                        <div className="inner-tech text-center mb-10 h">aws</div>
 
 
                     </div>

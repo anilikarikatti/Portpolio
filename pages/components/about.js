@@ -5,13 +5,13 @@ export default function About(){
     return(
         <>
         <Main1/>
-        <div className='project-page' >
-            <div className="flex" >
-                <div className=' wi backimg  height-100' >
+        <div className='project-page ' >
+            <div className="flex about flex sm:flex-row  flex-col sm:h-screen h-fit" >
+                <div className=' wi backimg  sm:h-full sm:w-full  backimg bg-cover  h-96 w-96 sm:ml-0 ml-20' >
                     
 
                 </div>
-                <div className='wi'>
+                <div className='wi  '>
                     <h3 className="hello">Hello,</h3>
 
                     <h3> Let me introduce myself</h3>
@@ -23,9 +23,9 @@ export default function About(){
                 </div>
             <div className="">
 
-                <h1 className="myskills">my skills</h1>
+                <h1 className="myskills blk m-32">my skills</h1>
                 <div className="web">
-                    <div className="left">web technologies </div>
+                    <div className="left blk">web technologies </div>
                     <div className="leftdata  border h">html</div>
                     <div className="innerleft border h">css</div>
                     <div className="innerleft border h">javascript </div>
@@ -40,7 +40,7 @@ export default function About(){
 
                 {/* <h1 className="myskills"></h1> */}
                 <div className="web">
-                    <div className="left">frame work and libraries </div>
+                    <div className="left blk">frame work and libraries </div>
                     <div className=" border innerleftframe h">react</div>
                     <div className="innerleftframe border h">express</div>
                     <div className="innerleftframe border h">next js</div>
@@ -55,7 +55,7 @@ export default function About(){
             <div className="">
 
                 <div className="web">
-                    <div className="left">tools</div>
+                    <div className="left blk">tools</div>
                     <div className=" border toolsleft h">aws</div>
                     <div className="innerleftframe border h">git</div>
                     <div className="innerleftframe border h">vs code</div>
@@ -68,9 +68,9 @@ export default function About(){
 
             <div className="">
 
-                <h1 className="myskills margintop-10">Education</h1>
+                <h1 className="myskills margintop-10 blk">Education</h1>
                 <div className="web">
-                    <div className="left">school </div>
+                    <div className="left blk">school </div>
                     <div className="schoolleft  border h">karnataka high school dharwad</div>
         
                 </div>
@@ -80,7 +80,7 @@ export default function About(){
             <div className="">
 
                 <div className="web">
-                    <div className="left">college </div>
+                    <div className="left blk">college </div>
                     <div className="collageleft  border h">jain collage of engineering and technology hubballi</div>
         
                 </div>
@@ -90,7 +90,7 @@ export default function About(){
             <div className="">
 
                 <div className="web">
-                    <div className="left">university </div>
+                    <div className="left blk">university </div>
                     <div className="universityleft  border h">Visvesvaraya Technological University (VTU)</div>
         
                 </div>
@@ -99,7 +99,7 @@ export default function About(){
             <div className="">
 
             <div className="web">
-                <div className="left">mentor </div>
+                <div className="left blk">mentor </div>
                 <div className="collageleft  border h data">chandan purohit [c t o of samarth meditech]</div>
 
             </div>

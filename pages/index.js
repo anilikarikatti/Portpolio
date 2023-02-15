@@ -7,6 +7,7 @@ import Home from './components/home'
 import Projects from './components/projects'
 import About from './components/about'
 import Link from 'next/link'
+import Contact from './components/contact'
 
 
 
@@ -24,7 +25,7 @@ const inter = Inter({ subsets: ['latin'] })
           <div className='sm:ml-20 ml-16'><Link href="/">Home</Link></div>
           <div className='sm:ml-20 ml-16'> <Link href="/components/about">About</Link></div>
           <div className='sm:ml-20 ml-16'> <Link href="/components/projects">Projects</Link></div>
-          <div className='sm:ml-20 ml-16'><Link href="/components/home">Contact</Link></div>
+          <div className='sm:ml-20 ml-16'><Link href="/components/contact">Contact</Link></div>
           {/* <div className='lef'>Anil IK</div> */}
         </div>
             
