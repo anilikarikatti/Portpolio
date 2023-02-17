@@ -1,8 +1,7 @@
 .someMyWorks{
-    margin-top: 30px;
+    
     margin-left: 50%;
     color: aliceblue;
-    text-transform: capitalize;
 
 }
 
@@ -42,10 +41,10 @@
 
 .imgages{
     border: 2px solid black;    
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .lists{
@@ -67,4 +66,36 @@
 
 .below{
     margin-top: 20px;
+}
+
+.mybiobackup{
+    background-image: url("../public/bio_backup.jpeg");
+    background-repeat: no-repeat;
+    /* background-size: 600px 400px; */
+}
+
+.admin_img{
+    background-image: url("../public/admin_side.png");
+    background-repeat: no-repeat;
+}
+
+.memory_game1{
+    background-image: url("../public/memory_game1.png");
+    background-repeat: no-repeat;
+}
+
+.memory_game2{
+    background-image: url("../public/memory_game2.png");
+    background-repeat: no-repeat;
+}
+
+
+.quiz1{
+    background-image: url("../public/quiz1.png");
+    background-repeat: no-repeat;
+}
+
+.quiz2{
+    background-image: url("../public/quiz2.png");
+    background-repeat: no-repeat;
 }

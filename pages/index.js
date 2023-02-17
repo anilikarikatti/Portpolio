@@ -22,10 +22,10 @@ const inter = Inter({ subsets: ['latin'] })
      </Head>
       <main >
         <div className='headers'>
-          <div className='sm:ml-20 ml-16'><Link href="/">Home</Link></div>
-          <div className='sm:ml-20 ml-16'> <Link href="/components/about">About</Link></div>
-          <div className='sm:ml-20 ml-16'> <Link href="/components/projects">Projects</Link></div>
-          <div className='sm:ml-20 ml-16'><Link href="/components/contact">Contact</Link></div>
+          <div className='sm:ml-20 ml-10'><Link href="/">Home</Link></div>
+          <div className='sm:ml-20 ml-10'> <Link href="/components/about">About</Link></div>
+          <div className='sm:ml-20 ml-10'> <Link href="/components/projects">Projects</Link></div>
+          <div className='sm:ml-20 ml-10'><Link href="/components/contact">Contact</Link></div>
           {/* <div className='lef'>Anil IK</div> */}
         </div>
             
