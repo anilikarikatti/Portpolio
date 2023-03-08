@@ -17,7 +17,8 @@ const inter = Inter({ subsets: ['latin'] })
   return (
     <>
      <Head>
-     <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Oswald&family=Passions+Conflict&family=Sacramento&family=Satisfy&family=Tangerine&display=swap" rel="stylesheet"/>
+     <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+     
 
      </Head>
       <main >
@@ -37,10 +38,10 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Main(){
   return(
     <>
-    <Main1/>
+    {/* <Main1/> */}
     <div>
     <Home/>
-    <Projects/>
+    {/* <Projects/> */}
 </div>
 </>
     )

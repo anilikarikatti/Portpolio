@@ -1,7 +1,11 @@
+import { useState } from "react"
 import { Main1 } from "../index"
 
 
 export default function About(){
+    let [hide,setHide] = useState(true)
+
+    let [edu,setEdu] = useState(true)
     return(
         <>
         <Main1/>
@@ -21,12 +25,14 @@ export default function About(){
                         
                 </div>
                 </div>
+                <div className="ml-40 sm:ml-48 uppercase  sm:blk text-black-300 mt-20 bg-stone-200 w-40 rounded-md text-center h-10 rot " onClick = {()=>{setHide(!hide);console.log("clikced");}} style={{backgroundColor:(hide?'white':'black'),color:(hide)?'black':"white" } }> skills</div>
+                    {/* <h1 className=" ">my skills</h1> */}
 
-                <h1 className="ml-40 sm:ml-48 uppercase  sm:blk text-red-300 mt-20 ">my skills</h1>
-            <div className="web">
+                    {/* <div className = {hide ? "hide":"block" } onClick = {()=>{setHide(!hide)}} style={{display:(hide?"none" : "block")}}>click here to see skills</div> */}
+            <div className="web hide add"  style={{display:(hide?"none" : "block")}}>
                                 
-                <div className="sm:web  sm:ml-0 ml-24 flex sm:flex-row flex-col">
-                <div className="sm:text-center  text-white-700  sm:mt-0 sm:ml-40 w-40">web technologies </div>    
+                <div className="sm:web  sm:ml-0 ml-24 flex sm:flex-row flex-col ">
+                <div className="sm:text-center  text-white-700  sm:mt-0 sm:ml-40 w-40 h ">web technologies </div>    
                     <div className="sm:leftdata  border  sm:ml-12 sm:h-10 w-40 h">html</div>
                     <div className="sm:innerleft border  sm:ml-12 sm:h-10 w-40 h">css</div>
                     <div className="sm:innerleft border sm:ml-12 sm:h-10 h">javascript </div>
@@ -37,11 +43,11 @@ export default function About(){
                 
             </div>
 
-            <div className="web">
+            <div className="web  hide  add"  style={{display:(hide?"none" : "block")}}>
 
                 {/* <h1 className="myskills"></h1> */}
                 <div className="sm:web flex sm:flex-row flex-col ml-24">
-                    <div className="sm:ml-24 text-white-700 w-40">frame work and libraries </div>
+                    <div className="sm:ml-24 text-white-700 w-40 h">frame work and libraries </div>
                     <div className=" border sm:innerleftframe sm:ml-10 w-40 h-10 h">react</div>
                     <div className="sm:innerleftframe border sm:ml-10 w-40 h-10 h">express</div>
                     <div className="sm:innerleftframe border sm:ml-10 w-40 h-10 h">next js</div>
@@ -53,10 +59,11 @@ export default function About(){
             </div>
             
 
-            <div className="web">
+            <div className="web hide add"
+         style={{display:(hide?"none" : "block")}}>
 
-                <div className="sm:web flex sm:flex-row flex-col sm:ml-48 ml-12">
-                    <div className=" text-white-700 sm:ml-0 ml-20 w-40  h">tools</div>
+                <div className="sm:web flex sm:flex-row flex-col sm:ml-48 ml-12 ">
+                    <div className=" text-white-700 sm:ml-0 ml-20 w-40  h text-center">tools</div>
                     <div className=" border sm:toolsleft ml-12 w-40 h-10 h">aws</div>
                     <div className="innerleftframe border h-10 ml:10 w-40 h">git</div>
                     <div className="innerleftframe border h w-40 h">vs code</div>
@@ -67,10 +74,10 @@ export default function About(){
 
             </div>
 
-            <div className="">
+            <div className="" onClick = {()=>{setEdu(!edu);console.log("clikced");}}>
 
-                <h1 className="mt-20 text-red-300 ml-40 sm:ml-48 uppercase">Education</h1>
-                <div className="web  ml-0 flex flex-col sm:flex-row">
+                <div className="mt-20 text-black-300 ml-40 sm:ml-48 uppercase bg-stone-200 w-40 rounded-md text-center h-10 rot" style={{backgroundColor:(edu?'white':'black'),color:(edu)?'black':"white"}}><p className="mt-20" >Education</p></div>
+                <div className="web  ml-40 flex flex-col sm:flex-row hide add" style={{display:(edu?"none" : "block")}}>
                     <div className=" ml-40   ">school </div>
                     <div className="sm:w-80 w-60 border sm:ml-20 ml-20 h">karnataka high school dharwad</div>
         
@@ -78,19 +85,19 @@ export default function About(){
             </div>
 
 
-            <div className="">
+            <div className="" >
 
-                <div className="web flex flex-col sm:flex-row">
-                    <div className="ml-40 ">college </div>
+                <div className="web flex flex-col sm:flex sm:flex-row ml-40 hide add" style={{display:(edu?"none" : "block")}}>
+                    <div className="ml-40 " >college </div>
                     <div className="ml-20 border sm:w-80 w-60 h">jain collage of engineering and technology hubballi</div>
         
                 </div>
             </div>
 
 
-            <div className="">
+            <div className="" >
 
-                <div className="web flex flex-col sm:flex-row">
+                <div className="web flex flex-col sm:flex-row hide ml-40 add" style={{display:(edu?"none" : "block")}}>
                     <div className="ml-40 ">university </div>
                     <div className=" ml-20 border sm:w-80 w-60 h">Visvesvaraya Technological University (VTU)</div>
         
@@ -99,7 +106,7 @@ export default function About(){
             
             <div className="">
 
-            <div className="web flex flex-col sm:flex-row">
+            <div className="web flex flex-col sm:flex-row hide ml-40 add" style={{display:(edu?"none" : "block")}}>
                 <div className="ml-40">mentor </div>
                 <div className=" ml-20 border sm:w-80 w-60 h">chandan purohit [c t o of samarth meditech]</div>
 

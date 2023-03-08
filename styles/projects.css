@@ -33,7 +33,7 @@
 .project-page{
     /* height: 850px; */
     height: 100%;
-    /* width: 100vw; */
+    width: 100vw;
     /* background-color: rgb(48, 43, 43); */
     /* justify-content: flex-start; */
     overflow: hidden;
@@ -98,4 +98,95 @@
 .quiz2{
     background-image: url("../public/quiz2.png");
     background-repeat: no-repeat;
+}
+
+.img_div{
+    height: 400px;
+    width: 650px;
+    margin-top: 40px;
+
+}
+
+.memory{
+    background-size: 500px 500px;
+}
+
+.pg{
+    height: 100%;
+    background-image: url("../public/projects_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.para{
+    display: none;
+    color: rgb(22, 7, 7);
+    /* margin-right: 30px; */
+    margin-left: -20px;
+}
+
+.hov:hover ~ .para{
+    display: block;
+}
+
+.hov:hover + .img_div{
+    display: none;
+}
+
+.skillNames{
+    margin-left: -10px;
+    margin-top: 40px;
+}
+
+
+.desc{
+    display: none;
+    margin-top: 100px;
+    /* text-align: center; */
+    /* background-color: burlywood; */
+    width: fit-content;
+    margin-left: 150px;
+    text-transform: capitalize;
+
+}
+.secImg:hover .desc{
+    display: block;
+}
+
+
+.traingle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid rgb(105, 60, 60);
+   margin-left:50px
+  }
+
+.bd{
+height:100px;
+width:300px;
+/*   border:2px solid black; */
+background-color: rgb(105, 60, 60);
+text-align: center;
+color: white;
+}
+
+.headrs{
+    position: absolute;
+    margin-left: 780px;
+}
+.up{
+    position: absolute;
+    right: 30px;
+    background-color: black;
+    color: white;
+    width: 40px;
+    text-align: center;
+}
+
+.atag{
+    text-decoration: none;
+    color: black;
 }

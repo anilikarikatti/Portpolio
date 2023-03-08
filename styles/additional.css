@@ -1,4 +1,6 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Oswald&family=Passions+Conflict&family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Satisfy&display=swap');
 .headers{
     color:aliceblue;
     /* margin-left: 100px; */
@@ -83,8 +85,18 @@
     /* border-radius: 50%; */
     /* border: 2px solid white; */
     /* margin-top: 50px; */
+    margin-left: 10px;
+    /* margin-top: 80px; */
+    transition: transform 2s ease;
 }
 
+.rounded{
+    background-color: #c9d3d4;
+    border-radius: 50%;
+    height: 600px;
+    width: 1000px;
+    margin-top: 50px;
+}
 .home{
     /* height:100vh;
     width:100vw; */
@@ -101,7 +113,7 @@
 
 .line-space{
     /* margin-top: 50px; */
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 .tech{
@@ -113,7 +125,7 @@
 .inner-tech{
     
     border: 2px solid black;
-    border-style: dotted;
+    border-style: solid;
     text-align: center;
     margin-left: 10px;
     margin-top: 20px;
@@ -121,9 +133,62 @@
     background-color: antiquewhite;
     color: black;
     border-radius: 30px;
-    /* height: 30px; */
-}
+    height: 40px;
+    vertical-align: middle;
+    position: relative;
+    }
 
-.padd{
-    /* padding-top: 4px; */
-}
+    .bghover:hover{
+        background-color:rgb(67, 156, 215);
+        transform:scale(1.1)
+        
+    }
+
+    .overflow{
+        overflow-y: hidden;
+    }
+
+    .texthover{
+        color: rgb(50, 145, 208);
+    }
+
+    .name{
+        font-family: 'Dancing Script', cursive;
+        font-weight: 800;
+    }
+
+    .iam{
+        font-family:  'Poppins', sans-serif;
+        font-weight: 400;
+    }
+
+    /* links */
+
+    .links{
+        margin-top: 40px;
+        /* margin-left: -10px; */
+    }
+
+    .l1{
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+
+    .data{
+        margin-top: 28px;
+    }
+
+    .resume:hover{
+        background-color: rgb(186, 108, 108);
+        transform: scale(1.2);
+    }
+
+    .project:hover{
+        background-color: rgb(66, 136, 104);
+        transform: scale(1.2);
+    }
+
+    .contacts:hover{
+        background-color: rgb(187, 118, 50);
+        transform: scale(1.2);
+    }
