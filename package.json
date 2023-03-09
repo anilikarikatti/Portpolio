@@ -11,6 +11,7 @@
   "dependencies": {
     "@next/font": "13.1.1",
     "@nextcss/reset": "^0.2.4-beta",
+    "aos": "^2.3.4",
     "eslint": "8.30.0",
     "eslint-config-next": "13.1.1",
     "next": "^13.1.1",

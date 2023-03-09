@@ -8,19 +8,20 @@ export default function About(){
     let [edu,setEdu] = useState(true)
     return(
         <>
-        <Main1/>
-        <div className='project-page bg-slate-500' >
-            <div className="flex about flex sm:flex-row  flex-col sm:h-screen h-fit" >
-                <div className=' wi backimg  sm:h-full sm:w-full  backimg bg-cover  h-96 w-96 sm:ml-0 ml-20 ' >
+        {/* <Main1/> */}
+        <div className='project-page bg-white' >
+            <div className="about sm:h-screen h-fit" >
+                {/* <div className=' wi backimg  sm:h-full sm:w-full  backimg bg-cover  h-96 w-96 sm:ml-0 ml-20 ' >
                     
 
-                </div>
-                <div className='sm:wi text-stone-100 ml-10 sm:w-96'>
+                </div> */}
+                <div className='sm:wi text-black ml-10 sm:w-96'>
                     <h3 className="sm:mt-64 mt-20">Hello,</h3>
 
-                    <h3> Let me introduce myself</h3>
+                    <h3>im anil karikatti </h3>
+                    <h4>full stack developer</h4>
                                 <p className="sm:para">
-                                I am Anil Karikatti, currently working as a Software Engineer. I am a computer science  Engineering graduate from Hubballi. 
+                                 currently working as a Software Engineer. I am a computer science  Engineering . 
                                 </p>
                         
                 </div>

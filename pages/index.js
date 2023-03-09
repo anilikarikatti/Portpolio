@@ -18,7 +18,7 @@ const inter = Inter({ subsets: ['latin'] })
     <>
      <Head>
      <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-     
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
      </Head>
       <main >
