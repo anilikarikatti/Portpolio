@@ -19,7 +19,7 @@ export default function Home(){
         {/* <Main1></Main1> */}
         
         <div className='about flex sm:flex-row  flex-col sm:h-screen h-fit bg-white overflow' >
-            <div className='  backimg bg-cover sm:ml-0 ml-10 rounded bghover' data-aos="flip-left">
+            <div className='  backimg bg-cover sm:ml-0 ml-10 rounded bghover' >
                 
 
             </div>

@@ -111,13 +111,7 @@
     background-size: 500px 500px;
 }
 
-.pg{
-    height: 100%;
-    background-image: url("../public/projects_bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
 
 .para{
     display: none;
@@ -126,7 +120,7 @@
     margin-left: -20px;
 }
 
-.hov:hover ~ .para{
+.para{
     display: block;
 }
 
@@ -175,7 +169,7 @@ color: white;
 
 .headrs{
     position: absolute;
-    margin-left: 780px;
+    margin-left: 900px;
 }
 .up{
     position: absolute;
@@ -189,4 +183,8 @@ color: white;
 .atag{
     text-decoration: none;
     color: black;
+}
+
+.last{
+    height: 500px;
 }
