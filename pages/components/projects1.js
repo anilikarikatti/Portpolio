@@ -78,16 +78,13 @@ export default function Project1(){
                 <h2 className="uppercase mt-20">memory game </h2>
 
                 <div className="grid grid-cols-2 ml-32 mt-10">
-                    {/* <div className={"  bg-contain memory img_div hov"+(img2 ? 'memory_game1' :"memory_game1")}  onClick={()=>setImg2(!img2)}  > */}
+                    
                     
                     <div className={" bg-contain img_div memory  hov  " +  (img2 ? 'memory_game1' :"memory_game2")}  onClick={()=>{setImg2(!img2);}}>
                     </div>
-                    {/* <div className="memory_game1 bg-contain memory img_div secImg" data-aos = "fade-right">
-                    </div> */}
-
+                    
                     <div className="para" id="scroll" data-aos = "fade-left">
-                    {/* <h4 class="textColor text-center capitalize">memory game</h4> */}
-                        <p class="textColor capitalize ">
+                                            <p class="textColor capitalize ">
                             challenging game containing 4x4 boxes that highlights a red color in each random box for certain seconds
                             when user click all colored boxes the color of box will be red and after picking all colored boxes user will be  win the game
                             this project can be done by react js , and also hosted on vercel 

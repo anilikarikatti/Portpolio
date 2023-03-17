@@ -1,3 +1,4 @@
+
 .someMyWorks{
     
     margin-left: 50%;
@@ -122,6 +123,7 @@
 
 .para{
     display: block;
+    font-family: 'Poppins', sans-serif
 }
 
 .hov:hover + .img_div{
@@ -187,4 +189,39 @@ color: white;
 
 .last{
     height: 500px;
+}
+
+.clipimg{
+ 
+      /* clip-path: polygon(0% 0%,75% 40%,50% 100%,75% 100%,0% 100%); */
+      /* clip-path: polygon(68% 0, 100% 50%, 71% 99%, 0 100%, 0 1%); */
+      clip-path: polygon(68% 0, 100% 50%, 72% 100%, 0 100%, 0 1%);
+
+}
+
+.background{
+    background-color: #eef6fe;
+}
+
+.imgs:hover{
+    transform: scale(1,1.1);
+}
+
+.header{
+    position: relative;
+    top: 30px;
+    font-family: 'Climate Crisis', cursive;
+
+}
+
+.shad{
+    box-shadow: 0 0 0.5vw #000;
+}
+
+.box{
+    box-sizing: border-box
+}
+.marginLeft{
+    position: relative;
+    left: 600px;
 }

@@ -1,0 +1,5 @@
+.clipimg{
+    /* clip: rect(1px, 10em, 3rem, 2ch);
+     */
+     clip-path: polygon(0 0, 0% 100%, 100% 56%);
+}

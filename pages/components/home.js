@@ -18,7 +18,7 @@ export default function Home(){
         <>
         {/* <Main1></Main1> */}
         
-        <div className='about flex sm:flex-row  flex-col sm:h-screen h-fit bg-white overflow' >
+        <div className='about flex sm:flex-row  flex-col sm:h-screen h-fit background overflow' >
             <div className='  backimg bg-cover sm:ml-0 ml-10 rounded bghover' >
                 
 
@@ -37,7 +37,7 @@ export default function Home(){
 
                  <div className="links flex">
                     <div className="h-20 w-20  bg-red-200 text-center l1 resume" ><a href="https://anilikarikatti.github.io/resume/"><p className="data" >resume</p></a></div>
-                    <div className=" h-20 w-20  bg-green-200 l1 text-center project" ><Link href="/components/projects1"><p className="data">projects</p></Link></div>
+                    <div className=" h-20 w-20  bg-green-200 l1 text-center project" ><Link href="/components/project2"><p className="data">projects</p></Link></div>
                     <div className="h-20 w-20  bg-orange-200 text-center l1 contacts" ><Link href="/components/about"><p className="data" >about</p></Link></div>
 
                 </div>
