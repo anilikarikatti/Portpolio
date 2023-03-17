@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import AOS from 'aos'
 
 import 'aos/dist/aos.css';
+import Head from "next/head";
 export default function Home(){
 
     useEffect(() => {
@@ -17,6 +18,12 @@ export default function Home(){
     return(
         <>
         {/* <Main1></Main1> */}
+        <Head>
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script:wght@400;500;600;700&family=Oswald&family=Passions+Conflict&family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Satisfy&display=swap" rel="stylesheet"></link>
+
+        </Head>
         
         <div className='about flex sm:flex-row  flex-col sm:h-screen h-fit background overflow' >
             <div className='  backimg bg-cover sm:ml-0 ml-10 rounded bghover' >

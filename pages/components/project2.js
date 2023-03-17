@@ -30,7 +30,7 @@ export default function Project2(){
         else{
             setIndex(0)
         }
-      },1800)
+      },2200)
       }
 
       move()
