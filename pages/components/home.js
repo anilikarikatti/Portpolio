@@ -26,7 +26,7 @@ export default function Home(){
         </Head>
         
         <div className='about flex sm:flex-row  flex-col sm:h-screen h-fit background overflow' >
-            <div className='  backimg bg-cover sm:ml-0 ml-10 rounded bghover' >
+            <div className='  backimg bg-cover sm:ml-0 ml-8 rounded bghover sm:h-[600px] h-[300px] w-[300px] sm:w-[1000px] sm:mt-[50] mt-[20px] '>
                 
 
             </div>
@@ -34,18 +34,18 @@ export default function Home(){
             
 
                 <h1 className="text-black sm:mt-28 mt-8 sm:ml-20 ml-44 sm:text-7xl name" data-aos="flip-down"> I am </h1>
-                <p className="sm:text-8xl text-xl sm:ml-20 ml-40 text-black texthover name " data-aos="flip-left">Anil  Karikatti</p>
-                <p className="sm:text-xl text-xl sm:ml-20 mt-4 ml-40 text-black capitalize" data-aos="flip-up">full-stack developer</p>
+                <p className="sm:text-8xl text-xl sm:ml-20 ml-36 text-black texthover name " data-aos="flip-left">Anil  Karikatti</p>
+                <p className="sm:text-xl text-xl sm:ml-20 mt-4 ml-28 text-black capitalize" data-aos="flip-up">full-stack developer</p>
                 
-                <h3 className="line-space sm:mt-10 mt-3 sm:ml-40 ml-10 text-black  capitalize" data-aos="flip-up">I am a Software Engineer  I love coding , development and make new web experiences for people.</h3>
-                <h3 className="text-black line-space  sm:ml-40 ml-10 capitalize " data-aos="flip-up">
+                <h3 className="line-space sm:mt-10 mt-3 sm:ml-40 ml-6 text-black  capitalize" data-aos="flip-up">I am a Software Engineer  I love coding , development and make new web experiences for people.</h3>
+                <h3 className="text-black line-space  sm:ml-40 ml-6 capitalize " data-aos="flip-up">
                     I am looking for an opportunity in an esteemed organisation to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfill organisational goals.</h3>
 
 
                  <div className="links flex">
-                    <div className="h-20 w-20  bg-red-200 text-center l1 resume" ><a href="https://anilikarikatti.github.io/resume/"><p className="data" >resume</p></a></div>
-                    <div className=" h-20 w-20  bg-green-200 l1 text-center project" ><Link href="/components/project2"><p className="data">projects</p></Link></div>
-                    <div className="h-20 w-20  bg-orange-200 text-center l1 contacts" ><Link href="/components/about"><p className="data" >about</p></Link></div>
+                    <div className="h-20 w-20  bg-red-400 text-center l1 resume" ><a href="https://anilikarikatti.github.io/resume/"><p className="data" >resume</p></a></div>
+                    <div className=" h-20 w-20  bg-green-400 l1 text-center project" ><Link href="/components/project2"><p className="data">projects</p></Link></div>
+                    <div className="h-20 w-20  bg-orange-400 text-center l1 contacts" ><Link href="/components/contact"><p className="data" >contact</p></Link></div>
 
                 </div>
 

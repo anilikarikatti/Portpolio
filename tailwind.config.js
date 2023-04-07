@@ -6,7 +6,13 @@ module.exports = {
 
   ],
   theme: {
-    extend: {},
+    
+    
+    extend: {
+      bgheight: {sm:'600px'},
+    bgwidth: {sm:'1000px'},
+    bgmarginTop: {sm:'50px'},
+    },
   },
   plugins: [],
 }

@@ -85,7 +85,7 @@
     /* border-radius: 50%; */
     /* border: 2px solid white; */
     /* margin-top: 50px; */
-    margin-left: 10px;
+    /* margin-left: 20px; */
     /* margin-top: 80px; */
     transition: transform 2s ease;
 }
@@ -93,8 +93,16 @@
 .rounded{
     background-color: #c9d3d4;
     border-radius: 50%;
-    height: 600px;
+    /* height: 600px;
     width: 1000px;
+    margin-top: 50px; */
+}
+
+.roundedMobile{
+    background-color: #c9d3d4;
+    border-radius: 50%;
+    height: 200px;
+    width: 100px;
     margin-top: 50px;
 }
 .home{
@@ -192,3 +200,12 @@
         background-color: rgb(187, 118, 50);
         transform: scale(1.2);
     }
+
+
+    /* responsive */
+/* 
+    .bgheight{
+
+    } */
+/* bgwidth
+bgmarginTop */

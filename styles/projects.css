@@ -101,12 +101,12 @@
     background-repeat: no-repeat;
 }
 
-.img_div{
+/* .img_div{
     height: 400px;
     width: 650px;
     margin-top: 40px;
 
-}
+} */
 
 .memory{
     background-size: 500px 500px;
@@ -169,10 +169,10 @@ text-align: center;
 color: white;
 }
 
-.headrs{
+/* .headrs{
     position: absolute;
     margin-left: 900px;
-}
+} */
 .up{
     position: absolute;
     right: 30px;
