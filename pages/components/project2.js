@@ -98,14 +98,14 @@ export default function Project2(){
                 </div>
 
 
-                <div className="grid sm:grid-cols-2 sm:ml-20 sm:mt-20 border-2 sm:mr-20 m-5 imgs shad mt-20">
+                <div className="grid sm:grid-cols-2 sm:ml-20 sm:mt-20 border-2 sm:mr-20 m-5 imgs shad mt-20 ">
                     
                     
-                    <div className={"bg-contain  sm:h-[400px] h-[150px] w-[340px] sm:w-[520px] sm:mt-20 mt-10 sm:ml-0 ml-6  hov  sm:clipimg  "+ second_images[index]}>
+                    <div className={"bg-contain  sm:h-[400px] h-[150px] w-[340px] sm:w-[520px] sm:mt-20 mt-10 sm:ml-0 ml-16 hov  sm:clipimg  "+ second_images[index]}>
                     </div>
                     
                     <div className="para" id="scroll" data-aos = "fade-left">
-                            <p className="textColor capitalize sm:mt-16  text-center sm:mr-10 sm:ml-5 ml-8 mr-14 text-justify mb-10">
+                            <p className="textColor capitalize sm:mt-16  sm:mr-10 sm:ml-5  ml-8 mr-2 text-justify mb-10">
                             this is  challenging game containing 4x4 boxes that highlights a red color in each random box for certain seconds
                             when user click all colored boxes the color of box will be red and after picking all colored boxes user will be  win the game
                             this project can be done by react js  and also hosted on vercel 
