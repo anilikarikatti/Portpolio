@@ -45,7 +45,7 @@ export default function Home(){
                     I am looking for an opportunity in an esteemed organisation to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfill organisational goals.</h3>
 
 
-                 <div className="links flex">
+                 <div className="links flex justify-center">
                     <div className="h-20 w-20  bg-red-400 text-center l1 resume" ><a href="https://anilikarikatti.github.io/resume/"><p className="data" >resume</p></a></div>
                     <div className=" h-20 w-20  bg-green-400 l1 text-center project" ><Link href="/components/project2"><p className="data">projects</p></Link></div>
                     <div className="h-20 w-20  bg-orange-400 text-center l1 contacts" ><Link href="/components/contact"><p className="data" >contact</p></Link></div>

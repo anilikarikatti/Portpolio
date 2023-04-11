@@ -1,0 +1,57 @@
+.border{
+    border: 2px solid black;
+    
+}
+
+.con{
+    display: grid;
+    grid-template-columns: 1/12;
+}
+
+.o1{
+    
+    border: 2px solid black;
+    height: 100px;    
+    width: 200px;
+}
+
+.logo{
+    background-image: url("../public/logo1.png");
+    background-repeat: no-repeat ;
+    background-position: center;
+
+    background-size: contain;
+
+    height: 100px;
+}
+
+
+.call{
+    background-image: url("../public/call.gif");
+    /* height:120px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    background-position: center;
+
+}
+
+.email{
+    background-image: url("../public/gmail.png");
+    /* height: 100px; */
+    width: 50px;    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.github{
+    background-image: url("../public/github.png");
+    /* height: 100px; */
+    width: 50px;    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
