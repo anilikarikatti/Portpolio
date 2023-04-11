@@ -7,7 +7,7 @@ import AOS from "aos";
 const Contact = () => {
        
   return (
-    <div className='bg-white h-screen h-fit'>
+    <div className='bg-white h-screen h-fit background'>
         <h1 className="text-black-400 text-center  text-4xl  mx-auto flex  items-center justify-center capitalize ">get in touch with</h1>
         <div className='logo relative '>
           
