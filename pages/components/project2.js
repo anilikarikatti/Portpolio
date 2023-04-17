@@ -20,7 +20,7 @@ export default function Project2(){
       let [index,setIndex] = useState(0)
         let images =['mybiobackup','admin_img'];
         let second_images = ['memory_game1','memory_game2'];
-        let fourth_images = ['','']
+        let fourth_images = ['rbuilder1','rbuilder2']
 
         let third_images = ['quiz1',"quiz2"]
       function move(){
@@ -82,16 +82,16 @@ export default function Project2(){
                 <div className="grid sm:grid-cols-2 sm:ml-20 sm:mt-20 border-2 sm:mr-20 m-5 imgs shad mt-20">
                     
                     
-                    <div className={"bg-contain  sm:h-[400px] h-[150px] w-[300px] sm:w-[520px] sm:mt-20 mt-10 sm:ml-0 ml-2  hov  sm:clipimg   "+ fourth_images[index]}>
+                    <div className={" bg-contain  sm:h-[400px] h-[150px] w-[300px] sm:w-[520px] sm:mt-20 mt-10 sm:ml-0 ml-2  hov  sm:clipimg   "+ fourth_images[index]}>
                     </div>
                     
                     <div className="para" id="scroll" data-aos = "fade-left ">
                             <p className="textColor capitalize sm:mt-16  text-center sm:mr-10 sm:ml-5 ml-8 mr-2 text-justify mb-10">
-                            this is a resume btextColor capitalize mt-16 text-center sm:mr-10 m-5uilder app and this is in next js 
-                            when user user enters the data and added his projects and clicked confirm then click any template it will generate his resume
+                            this is a resume builder app and this is in next js 
+                            when user user enters his information  and added his projects and clicked confirm then click any template it will generate his resume
                             this project can be done by react js , and also hosted on vercel 
                             
-                                <a href="https://resume-builder-ak.vercel.app/" className="link mt-10 text-green-900"> demo </a>
+                                <a href="https://resume-builder-ak.vercel.app/" className="link mt-10 text-green-900"> goto </a>
                             
                         </p>
                 </div>

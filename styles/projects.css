@@ -101,6 +101,17 @@
     background-repeat: no-repeat;
 }
 
+.rbuilder1{
+    background-image: url("../public/rbuilder1.png");
+    background-repeat: no-repeat;
+}
+
+
+.rbuilder2{
+    background-image: url("../public/rbuilder2.png");
+    background-repeat: no-repeat;
+}
+
 /* .img_div{
     height: 400px;
     width: 650px;
