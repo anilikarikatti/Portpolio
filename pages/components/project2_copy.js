@@ -37,12 +37,7 @@ export default function Project2(){
       move()
     return(
         <>
-        <Head>
-          <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script:wght@400;500;600;700&family=Oswald&family=Passions+Conflict&family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Satisfy&display=swap" rel="stylesheet"></link>
-
-        </Head>
+       
             <div className="about pg background box " > 
                 <h1 className="text-center uppercase text-5xl header flip-scale-up-ver">projects</h1>
                 

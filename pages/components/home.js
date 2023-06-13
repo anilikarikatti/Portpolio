@@ -18,15 +18,7 @@ export default function Home(){
     return(
         <>
         {/* <Main1></Main1> */}
-        <Head>
-        <meta charset="UTF-8"/>
-          <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-          <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script:wght@400;500;600;700&family=Oswald&family=Passions+Conflict&family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Satisfy&display=swap" rel="stylesheet"></link>
-
-        </Head>
+       
         
         <div className='about flex sm:flex-row  flex-col sm:h-screen  background overflow-y-scroll items-center' >
             <div className='  backimg bg-cover sm:ml-0  rounded bghover sm:h-[600px] h-[300px] w-[300px] sm:w-[1000px] sm:mt-[50] mt-[20px] '>

@@ -1,8 +1,10 @@
 import ProjectBlock from "./ProjectBlock";
 
-import { Links } from "./ links";
+// import  Links  from "../ links";
+import Link from "next/link";
 
 import Head from "next/head";
+import { useState } from "react";
 // AOS.init()
 export default function Project2(){
     // AOS.init()
@@ -14,21 +16,34 @@ export default function Project2(){
 
 
     let third_images = ['quiz1',"quiz2"]
+
+    let [state,setState] = useState({
+        images,second_images,third_images,fourth_images,fifth_images
+    })
+
+    // let [names,setNames]=useState(["home","resume","contact"])
+
+    // let [links,setLinks] = useState(["/components/home" ,"https://anilikarikatti.github.io/resume/","/components/contact"  ])
+    
     return(
         <>
-        <Head>
-          <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dancing+Script:wght@400;500;600;700&family=Oswald&family=Passions+Conflict&family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Satisfy&display=swap" rel="stylesheet"></link>
-
-        </Head>
+      
             <div className="overflow-scroll overflow-x-hidden  h-fit background flex flex-col space-y-20" > 
          
                 <h1 className="text-center uppercase sm:text-5xl header flip-scale-up-ver text-red-400 text-2xl">projects</h1>
                 
                 {/* links */}
 
-                <Links names={["home","resume","contact"]} links={["/components/home" ,"https://anilikarikatti.github.io/resume/","/components/contact"  ]} />
+
+                <div className="links flex relative sm:left-[75%] left-5" id="headrs">
+
+                    <div className=" h-20 w-20  bg-green-400 l1 text-center project sm:project capitalize" data-aos = "fade-right"><Link href="/components/home"><p className="data">home</p></Link></div>
+
+                    <div className="h-20 w-20  bg-red-400 text-center l1 resume capitalize" data-aos = "fade-down"><a href= "https://anilikarikatti.github.io/resume/"><p className="data">resume</p></a></div>
+
+                    <div className="h-20 w-20  bg-orange-400 text-center l1 contacts capitalize" data-aos = "fade-left"><Link href="/components/contact" ><p className="data" >contact</p></Link></div>
+
+                    </div>
 
 
               <ProjectBlock images={images} p="this is our client product this can be done in my internship . this is available in play store also.
