@@ -2,7 +2,7 @@ import React from 'react'
 // import { useState } from 'react'
 import "aos/dist/aos.css";
 import Link from 'next/link';    
-// import  Links  from '../ links';  
+import  Links  from '../ links';  
 import { useEffect, useState } from "react";
 
 
@@ -66,6 +66,8 @@ const Contact = () => {
               <div className="h-20 w-20  bg-orange-400 text-center l1 contacts capitalize" data-aos = "fade-left"><Link href="/components/project2" ><p className="data" >projects</p></Link></div>
 
               </div>
+
+              {/* <Links names={names} links={links}/> */}
           </div>
 
 

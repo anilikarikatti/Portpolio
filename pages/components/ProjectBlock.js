@@ -49,7 +49,7 @@ export default function ProjectBlock(props) {
             <div className="w-full flex justify-center items-center text-justify sm:top-10 h-full top-0 mb-10">
                 {/* <div className="text-black  " id="scroll" data-aos = "fade-left"> */}
                     
-                    <p className="textColor capitalize  relative sm:top-0  right flex flex-col items-center">
+                    <p className="textColor capitalize  relative sm:top-0  right flex flex-col items-center text-black">
                         {p}
                         
                        {link ?  <a href={link} className="link mt-10 text-green-900"> click here </a> : ""}
