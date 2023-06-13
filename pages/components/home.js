@@ -28,7 +28,7 @@ export default function Home(){
 
         </Head>
         
-        <div className='about flex sm:flex-row  flex-col sm:h-screen h-fit background overflow items-center' >
+        <div className='about flex sm:flex-row  flex-col sm:h-screen  background overflow-y-scroll items-center' >
             <div className='  backimg bg-cover sm:ml-0  rounded bghover sm:h-[600px] h-[300px] w-[300px] sm:w-[1000px] sm:mt-[50] mt-[20px] '>
                 
 
@@ -40,15 +40,15 @@ export default function Home(){
                 <p className="sm:text-8xl text-xl sm:ml-20  text-black texthover name " data-aos="flip-left">Anil  Karikatti</p>
                 <p className="sm:text-xl text-xl sm:ml-20 mt-4 text-black capitalize" data-aos="flip-up">full-stack developer</p>
                 
-                <h3 className="line-space sm:mt-10 mt-3 sm:ml-40 text-black  capitalize sm:text-start text-start  px-4 sm:px-0" data-aos="flip-up">I am a Software Engineer  I love coding , development and make new web experiences for people.</h3>
-                <h3 className="text-black line-space  sm:ml-40  text-start capitalize sm:text-start px-4 sm:px-0" data-aos="flip-up">
+                <h3 className="line-space sm:mt-10 mt-3 sm:ml-40 text-black  capitalize sm:text-start text-justify  px-4 sm:px-0 " data-aos="flip-up">I am a Software Engineer  I love coding , development and make new web experiences for people.</h3>
+                <h3 className="text-black line-space  sm:ml-40  text-justify capitalize sm:text-start px-4 sm:px-0" data-aos="flip-up">
                     I am looking for an opportunity in an esteemed organisation to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfill organisational goals.</h3>
 
 
-                 <div className="links flex justify-center">
-                    <div className="h-20 w-20  bg-red-400 text-center l1 resume" ><a href="https://anilikarikatti.github.io/resume/"><p className="data" >resume</p></a></div>
-                    <div className=" h-20 w-20  bg-green-400 l1 text-center project" ><Link href="/components/project2"><p className="data">projects</p></Link></div>
-                    <div className="h-20 w-20  bg-orange-400 text-center l1 contacts" ><Link href="/components/contact"><p className="data" >contact</p></Link></div>
+                 <div className="links flex justify-center ">
+                    <div className="h-20 w-20  bg-red-400 text-center l1 resume" ><a href="https://anilikarikatti.github.io/resume/"><p className="data capitalize" >resume</p></a></div>
+                    <div className=" h-20 w-20  bg-green-400 l1 text-center project" ><Link href="/components/project2"><p className="data capitalize">projects</p></Link></div>
+                    <div className="h-20 w-20  bg-orange-400 text-center l1 contacts" ><Link href="/components/contact"><p className="data capitalize" >contact</p></Link></div>
 
                 </div>
 
