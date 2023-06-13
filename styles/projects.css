@@ -75,11 +75,22 @@
     /* background-size: 600px 400px; */
 }
 
-.admin_img{
-    background-image: url("../public/admin_side.png");
+
+
+.bio1{
+    background-image: url("../public/bio1.png");
     background-repeat: no-repeat;
 }
 
+
+.bio3{
+    background-image: url("../public/bio3.png");
+    background-repeat: no-repeat;   
+}
+.bio4{
+    background-image: url("../public/bio4.png");
+    background-repeat: no-repeat;
+}
 .memory_game1{
     background-image: url("../public/memory_game1.png");
     background-repeat: no-repeat;
@@ -101,17 +112,43 @@
     background-repeat: no-repeat;
 }
 
-.rbuilder1{
-    background-image: url("../public/rbuilder1.png");
+.rbuilder3{
+    background-image: url("../public/rbuilder3.png");
     background-repeat: no-repeat;
 }
 
 
-.rbuilder2{
-    background-image: url("../public/rbuilder2.png");
+.rbuilder5{
+    background-image: url("../public/rbuilder5.png");
     background-repeat: no-repeat;
 }
 
+
+.rbuilder4{
+    background-image: url("../public/rbuilder4.png");
+    background-repeat: no-repeat;
+}
+
+.food1{
+    background-image: url("../public/food1.png");
+    background-repeat: no-repeat;
+}
+
+.food2{
+    background-image: url("../public/food2.png");
+    background-repeat: no-repeat;
+}
+
+
+
+.food3{
+    background-image: url("../public/food3.png");
+    background-repeat: no-repeat;
+}
+.food4{
+    background-image: url("../public/food4.png");
+    background-repeat: no-repeat;
+}
 /* .img_div{
     height: 400px;
     width: 650px;
@@ -126,16 +163,16 @@
 
 
 .para{
-    display: none;
-    color: rgb(22, 7, 7);
+    /* display: none; */
+    /* color: rgb(22, 7, 7); */
     /* margin-right: 30px; */
-    margin-left: -20px;
+    /* margin-left: -20px; */
 }
 
-.para{
+/* .para{
     display: block;
     font-family: 'Poppins', sans-serif
-}
+} */
 
 .hov:hover + .img_div{
     display: none;
