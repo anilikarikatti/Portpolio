@@ -149,6 +149,49 @@
     background-image: url("../public/food4.png");
     background-repeat: no-repeat;
 }
+
+
+/* kou */
+
+.kou1{
+    background-image: url("../public/kou1.png");
+    background-repeat: no-repeat;
+}
+
+
+.kou2{
+    background-image: url("../public/kou2.png");
+    background-repeat: no-repeat;
+}
+
+
+.kou3{
+    background-image: url("../public/kou3.png");
+    background-repeat: no-repeat;
+}
+
+
+.kou4{
+    background-image: url("../public/kou4.png");
+    background-repeat: no-repeat;
+}
+
+
+.kou5{
+    background-image: url("../public/kou5.png");
+    background-repeat: no-repeat;
+}
+
+
+.kou6{
+    background-image: url("../public/kou6.png");
+    background-repeat: no-repeat;
+}
+
+.kou7{
+    background-image: url("../public/kou7.png");
+    background-repeat: no-repeat;
+}
 /* .img_div{
     height: 400px;
     width: 650px;

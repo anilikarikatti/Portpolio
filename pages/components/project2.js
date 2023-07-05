@@ -17,6 +17,8 @@ export default function Project2(){
 
     let third_images = ['quiz1',"quiz2"]
 
+    let sixth = ['kou1','kou2','kou3','kou4','kou5','kou6','kou7']
+
     let [state,setState] = useState({
         images,second_images,third_images,fourth_images,fifth_images
     })
@@ -46,11 +48,19 @@ export default function Project2(){
                     </div>
 
 
-              <ProjectBlock images={images} p="this is our client product this can be done in my internship . this is available in play store also.
+              <ProjectBlock images={images} p="this is our client product  . 
+                            this is application  available in play store also.
                             this product provides a secured account in cloud to everyone to access medical documents such as MRI report, CT scan, X ray, Lab reports, Other medical tests, 3D imaging, medical prescriptions in digital format from the original issuers of these certificates. 
                             the project will be hosted on aws i have also little bit knowledge about this 
                             in this project i have been  be worked on backend using node js and express js and mysql  
                             the admin side of this product has been done by be ..this project using nunjucks template, tailwind css , html javascript "/>
+
+                            <ProjectBlock images={sixth} p="this is our client product 
+                            this product provides a learning management for universities and also details of teacher and students of university . add bulk student and bulk teachers for the university and admin also send the video , audio , notes as a documents . 
+                            
+                            in this project i have been  be worked on frontend using react js and next js and also used tailwind css and material ui components  
+                            the admin side of this product has been done by be ..this project using nunjucks template, tailwind css , html javascript "/>
+
 
                   <ProjectBlock images={fifth_images} p=" this is food order system project same like swiggy , zomato and also it maintains both side of client and restorent side . the client is capable to order foods after login and he also want to see his orders ..
                   in restorent side the hotels can see the todays orders ..
