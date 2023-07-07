@@ -63,7 +63,7 @@ const Contact = () => {
 
               {/* <div className="h-20 w-20  bg-red-400 text-center l1 resume capitalize" data-aos = "fade-down"><a href= "https://anilikarikatti.github.io/resume/"><p className="data">resume</p></a></div> */}
 
-              <div className="h-20 w-20  bg-red-400 text-center l1 resume capitalize flex items-center justify-center " data-aos = "fade-down"><a href="../AnilKarikatti .pdf"  download = "anil Karikatti Resume" className="">
+              <div className="h-20 w-20  bg-red-400 text-center l1 resume capitalize flex items-center justify-center " data-aos = "fade-down"><a href="../AnilKarikatti.pdf"  download = "anil Karikatti Resume" className="">
                     <p className="">resume</p> 
                     </a>
                     

@@ -40,7 +40,7 @@ export default function Home(){
                  <div className="links flex justify-center ">
                     {/* <div className="h-20 w-20  bg-red-400 text-center l1 resume" ><a href="https://anilikarikatti.github.io/resume/"><p className="data capitalize" >resume</p></a></div> */}
 
-                    <div className="h-20 w-20  bg-red-400 text-center l1 resume capitalize flex items-center justify-center " ><a href="../AnilKarikatti .pdf"  download = "anil Karikatti Resume" className="">
+                    <div className="h-20 w-20  bg-red-400 text-center l1 resume capitalize flex items-center justify-center " ><a href="../AnilKarikatti.pdf"  download = "anil Karikatti Resume" className="">
                     <p className="">resume</p> 
                     </a>
                     
