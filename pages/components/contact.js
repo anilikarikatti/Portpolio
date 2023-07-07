@@ -61,7 +61,13 @@ const Contact = () => {
 
               <div className=" h-20 w-20  bg-green-400 l1 text-center project sm:project capitalize" data-aos = "fade-right"><Link href="/components/home"><p className="data">home</p></Link></div>
 
-              <div className="h-20 w-20  bg-red-400 text-center l1 resume capitalize" data-aos = "fade-down"><a href= "https://anilikarikatti.github.io/resume/"><p className="data">resume</p></a></div>
+              {/* <div className="h-20 w-20  bg-red-400 text-center l1 resume capitalize" data-aos = "fade-down"><a href= "https://anilikarikatti.github.io/resume/"><p className="data">resume</p></a></div> */}
+
+              <div className="h-20 w-20  bg-red-400 text-center l1 resume capitalize flex items-center justify-center " data-aos = "fade-down"><a href="../AnilKarikatti .pdf"  download = "anil Karikatti Resume" className="">
+                    <p className="">resume</p> 
+                    </a>
+                    
+                    </div>
 
               <div className="h-20 w-20  bg-orange-400 text-center l1 contacts capitalize" data-aos = "fade-left"><Link href="/components/project2" ><p className="data" >projects</p></Link></div>
 
