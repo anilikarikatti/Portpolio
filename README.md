@@ -1,9 +1,11 @@
 # Hi 
-## this is my port Polio 
+## This is My PortFolio 
 
-this is done in next js frame work and vercel and React.js
+It contains about me and my work .
+
+This is done in  React.js using next js frame work and also uploaded in  vercel 
 
 
 
 if you want to know more about me 
- [Click here](https://portpolio-anilikarikatti.vercel.app/)
+ [Click here ](https://portpolio-anilikarikatti.vercel.app/)
