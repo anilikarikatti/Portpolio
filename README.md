@@ -1,8 +1,9 @@
 # Hi 
-## this is My PortFolio 
+## This is My PortFolio 
 
-It contains about me and my work . 
-This is done in  React.js using next js frame work and uploaded vercel 
+It contains about me and my work .
+
+This is done in  React.js using next js frame work and also uploaded in  vercel 
 
 
 
