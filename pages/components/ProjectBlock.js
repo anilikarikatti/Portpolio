@@ -11,7 +11,7 @@ export default function ProjectBlock(props) {
 
 
     // let p="",images=[],link="" 
-    let {p,images,link}  = data
+    let {p,images,link,tech}  = data
 
     console.log(data , "anil"); 
       function move(){
@@ -51,7 +51,15 @@ export default function ProjectBlock(props) {
                     
                     <p className="textColor capitalize  relative sm:top-0  right flex flex-col items-center text-black">
                         {p}
-                        
+                        <p className='top-5 relative'>technologies used</p>
+
+                        <div className='flex space-x-2 top-5 relative flex-wrap gap-y-4'> 
+                        {tech ? tech.split(',').map(elem=>{
+                          return(
+                            <div className='h-10 flex items-center bg-blue-200 text-center px-2'>{elem}</div>
+                          )
+                        }) : ""}
+                        </div>
                        {link ?  <a href={link} className="link mt-10 text-green-900"> click here </a> : ""}
                     </p>
                 {/* </div> */}

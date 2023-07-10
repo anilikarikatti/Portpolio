@@ -62,13 +62,13 @@ export default function Project2(){
                             this product provides a secured account in cloud to everyone to access medical documents such as MRI report, CT scan, X ray, Lab reports, Other medical tests, 3D imaging, medical prescriptions in digital format from the original issuers of these certificates. 
                             the project will be hosted on aws i have also little bit knowledge about this 
                             in this project i have been  be worked on backend using node js and express js and mysql  
-                            the admin side of this product has been done by be ..this project using nunjucks template, tailwind css , html javascript "/>
+                            the admin side of this product has been done by be ..this project using nunjucks template, tailwind css , html javascript " tech = "node js,express js, mysql,nunjucks template, tailwind css , html , javascript" />
 
                             <ProjectBlock images={sixth} p="this is our client product 
                             this product provides a learning management for universities and also details of teacher and students of university . add bulk student and bulk teachers for the university and admin also send the video , audio , notes as a documents . 
                             
                             in this project i have been  be worked on frontend using react js and next js and also used tailwind css and material ui components  
-                            the admin side of this product has been done by be ..this project using nunjucks template, tailwind css , html javascript "/>
+                            " tech = "react js , next js ,tailwind css , material ui"/>
 
 
                   <ProjectBlock images={fifth_images} p=" this is food order system project same like swiggy , zomato and also it maintains both side of client and restorent side . the client is capable to order foods after login and he also want to see his orders ..
@@ -76,24 +76,24 @@ export default function Project2(){
 
                   the admin can add the foods and restorents .
 
-                  this is a full stack project done in node js for backend  and used nunjucks template for front end and mysql for database and tailwind for css " link="https://github.com/anilikarikatti/food_order"/>
+                  this is a full stack project done in node js for backend  and used nunjucks template for front end and mysql for database and tailwind for css " link="https://github.com/anilikarikatti/food_order" tech = "node js,express js, mysql,nunjucks template, tailwind css , html , javascript"/>
 
 
                 <ProjectBlock images={fourth_images} p="this is a resume builder app and this project gives the  ready made resume  this project is in  next js 
                           when user  enters his information  and added his projects and clicked confirm then click any template it will generate his resume
-                          this project can be done in react js , and also hosted on vercel " link="https://resume-builder-ak.vercel.app/"/>
+                          this project can be done in react js , and also hosted on vercel " link="https://resume-builder-ak.vercel.app/" tech = "react js , next js ,tailwind css , vercel"/>
 
 
                 <ProjectBlock images={second_images} p="this is  challenging game containing 4x4 boxes that highlights a red color in each random box for certain seconds
                             when user click all colored boxes the color of box will be red and after picking all colored boxes user will be  win the game
                             this project can be done by react js  and also hosted on vercel 
-                            the same project will be done by normal html , css and javascript " link="https://trying-vercel-anilikarikatti.vercel.app/"/>
+                            the same project will be done by normal html , css and javascript " link="https://trying-vercel-anilikarikatti.vercel.app/" tech = "react js , next js ,tailwind css , vercel , html , css" />
 
               
                 <ProjectBlock images={third_images} p=" this is  challenging game containing 4x4 boxes that highlights a red color in each random box for certain seconds
                           when user click all colored boxes the color of box will be red and after picking all colored boxes user will be  win the game
                           this project can be done by react js  and also hosted on vercel 
-                          the same project will be done by normal html , css and javascript " link="https://trying-vercel-anilikarikatti.vercel.app/"/>
+                          the same project will be done by normal html , css and javascript " link="https://trying-vercel-anilikarikatti.vercel.app/" tech = "react js , next js ,tailwind css , vercel , html , css"/>
 
 
 

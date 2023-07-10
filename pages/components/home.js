@@ -34,7 +34,7 @@ export default function Home(){
                 
                 <h3 className="line-space sm:mt-10 mt-3 sm:ml-40 text-black  capitalize sm:text-start text-justify  px-4 sm:px-0 " data-aos="flip-up">I am a Software Engineer  I love coding , development and make new web experiences for people.</h3>
                 <h3 className="text-black line-space  sm:ml-40  text-justify capitalize sm:text-start px-4 sm:px-0" data-aos="flip-up">
-                    I am looking for an opportunity in an esteemed organisation to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfill organisational goals.</h3>
+                    I am looking for an job opportunity in an esteemed organisation to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfill organisational goals.</h3>
 
 
                  <div className="links flex justify-center ">
