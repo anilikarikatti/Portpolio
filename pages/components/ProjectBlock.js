@@ -56,7 +56,7 @@ export default function ProjectBlock(props) {
                         <div className='flex space-x-2 top-5 relative flex-wrap gap-y-4'> 
                         {tech ? tech.split(',').map(elem=>{
                           return(
-                            <div className='h-10 flex items-center bg-blue-200 text-center px-2'>{elem}</div>
+                            <div className='h-10 flex items-center bg-blue-200 text-center px-2' key={elem}>{elem}</div>
                           )
                         }) : ""}
                         </div>
