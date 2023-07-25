@@ -11,7 +11,7 @@ import { useState } from "react";
 export default function Project2(){
 
     // AOS.init()
-    let images =['bio3','bio4','bio1'];
+    let images =['bio3','bio4'];
     let second_images = ['memory_game1','memory_game2'];
     let fourth_images = ['rbuilder3','rbuilder4','rbuilder5']
 
@@ -20,7 +20,7 @@ export default function Project2(){
 
     let third_images = ['quiz1',"quiz2"]
 
-    let sixth = ['kou1','kou2','kou3','kou4','kou5','kou6','kou7']
+    let sixth = ['kou1','kou2']
 
     let [state,setState] = useState({
         images,second_images,third_images,fourth_images,fifth_images

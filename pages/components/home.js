@@ -28,11 +28,11 @@ export default function Home(){
             <div className='sm:h-full sm:w-full sm:text-start text-center'>
             
 
-                <h1 className="text-black sm:mt-28 mt-8 sm:ml-20  sm:text-7xl name" data-aos="flip-down"> I am </h1>
-                <p className="sm:text-8xl text-xl sm:ml-20  text-black texthover name " data-aos="flip-left">Anil  Karikatti</p>
+                <h1 className="text-black sm:mt-28 mt-8 sm:ml-20  sm:text-7xl name1" data-aos="flip-down"> I am </h1>
+                <p className="sm:text-8xl text-xl sm:ml-20  text-black texthover name1" data-aos="flip-left">Anil  Karikatti</p>
                 <p className="sm:text-xl text-xl sm:ml-20 mt-4 text-black capitalize" data-aos="flip-up">full-stack developer</p>
                 
-                <h3 className="line-space sm:mt-10 mt-3 sm:ml-40 text-black  capitalize sm:text-start text-justify  px-4 sm:px-0 " data-aos="flip-up">I am a Software Engineer  I love coding , development and make new web experiences for people.</h3>
+                <h3 className="line-space sm:mt-10 mt-3 sm:ml-40 text-black  capitalize sm:text-start text-justify  px-4 sm:px-0 " data-aos="flip-up">Hi , I am a Software Engineer  I love coding , development and make new web experiences for people.</h3>
                 <h3 className="text-black line-space  sm:ml-40  text-justify capitalize sm:text-start px-4 sm:px-0" data-aos="flip-up">
                     I am looking for an job opportunity in an esteemed organisation to put in my best efforts and always hunger for learning new things and put those skills into continuous implementation to achieve personal growth and fulfill organisational goals.</h3>
 
