@@ -4,4 +4,4 @@ const nextConfig = {
   optimizeFonts:false
 }
 
-exports = nextConfig
+export { nextConfig}
